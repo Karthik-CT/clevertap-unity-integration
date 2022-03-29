@@ -11,7 +11,7 @@ using CleverTap.Utilities;
 public class CleverTapUnity: MonoBehaviour {
 
     public String CLEVERTAP_ACCOUNT_ID = "TEST-W8W-6WR-846Z";
-    public String CLEVERTAP_ACCOUNT_TOKEN = "YOUR_CLEVERTAP_ACCOUNT_TOKEN";
+    public String CLEVERTAP_ACCOUNT_TOKEN = "TEST-206-0b0";
     public String CLEVERTAP_ACCOUNT_REGION = "";
     public int CLEVERTAP_DEBUG_LEVEL = 0;
     public bool CLEVERTAP_ENABLE_PERSONALIZATION = true;
