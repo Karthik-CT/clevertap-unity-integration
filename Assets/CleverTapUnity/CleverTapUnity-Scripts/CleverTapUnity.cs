@@ -82,30 +82,12 @@ public class CleverTapUnity: MonoBehaviour {
         CleverTapBinding.OnUserLogin(newProps);
 	}
 	
-	void CleverTapInboxDidInitializeCallback()
+    void CleverTapInboxDidInitializeCallback()
     {
-		/*IList<string> tabs = new List<string>();
-        tabs.Add("Promotions");
-        tabs.Add("Offers");
-        tabs.Add("Others");
-		
-        CTInboxStyleConfig styleConfig = new CTInboxStyleConfig();
-        styleConfig.Tabs = tabs;
-        styleConfig.TabBackgroundColor = "#FF0000";
-        styleConfig.SelectedTabIndicatorColor = "#0000FF";
-        styleConfig.SelectedTabColor = "#000000";
-        styleConfig.UnselectedTabColor = "#FFFFFF";
-        styleConfig.BackButtonColor = "#000000";
-        styleConfig.NavBarTitleColor = "#000000";
-        styleConfig.NavBarTitle = "MY INBOX";
-        styleConfig.NavBarColor = "#FFFFFF";
-        styleConfig.InboxBackgroundColor = "#F3F3F3";*/
-		
-		
 		
         //CleverTapBinding.ShowAppInbox(new Dictionary<string, object>());
         
-		CleverTapBinding.ShowAppInbox(null);
+	CleverTapBinding.ShowAppInbox(null);
 		
         Debug.Log("unity received inbox initialized");
     }
